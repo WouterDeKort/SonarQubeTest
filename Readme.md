@@ -7,7 +7,7 @@ This project shows how to run a SonarQube analysis on a .NET Core project.
 
 ## Start SonarQube
 
-The easiest way to try out SonarQube is by running it locally as a Docker container. You can do this by running runscan.ps1.
+The easiest way to try out SonarQube is by running it locally as a Docker container. You can do this by running startsonarqube.ps1.
 
 After the container has started, you can access the SonarQube web ui by opening https://localhost:9000. The default credentials are 
 
