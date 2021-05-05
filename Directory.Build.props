@@ -1,0 +1,7 @@
+<Project>
+    <ItemGroup>
+        <SonarQubeSetting Include="sonar.exclusions">
+            <Value>/**/thirdparty/*</Value>
+        </SonarQubeSetting>
+    </ItemGroup>
+</Project>

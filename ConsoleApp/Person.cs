@@ -16,7 +16,7 @@ namespace ConsoleApp
 			}
 			set
 			{
-				if (value < 0) throw new InvalidOperationException();
+				if (value < 0) throw new Exception();
 				age = value;
 			}
 		}
