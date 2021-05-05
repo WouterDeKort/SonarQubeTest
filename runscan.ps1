@@ -12,7 +12,7 @@ if ( -not (Test-Path env:SonarToken)) {
 
 $token = $env:SonarToken
 
-$projectName = "test3"
+$projectName = "MyTestProject"
 $codeCoveragePath = "../coverage/"
 
 dotnet sonarscanner begin /k:"$projectName" /d:sonar.login="$token" /d:"sonar.cs.opencover.reportsPaths=coverage/coverage.opencover.xml"
